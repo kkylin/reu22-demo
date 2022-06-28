@@ -28,6 +28,3 @@ function rk2(f,y0,t)
     end
     return sol
 end
-
-## default: rk2
-odesolve = rk2

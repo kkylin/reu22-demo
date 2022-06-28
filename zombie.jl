@@ -83,13 +83,13 @@ t  = 0:(5/1000):5 # time grid
 # -
 
 # solve the DEs
-soln1 = odesolve(ZombieVectorField(), y0, t)
+soln1 = rk2(ZombieVectorField(), y0, t)
 S1 = soln1[:, 1]
 Z1 = soln1[:, 2]
 R1 = soln1[:, 3]
 
 # solve the DEs
-soln2 = odesolve(ZombieVectorField(P=30), y0, t)
+soln2 = rk2(ZombieVectorField(P=30), y0, t)
 S2 = soln2[:, 1]
 Z2 = soln2[:, 2]
 R2 = soln2[:, 3]
