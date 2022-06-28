@@ -49,7 +49,7 @@
 
 using PyPlot
 
-include("ode.jl")
+include("rk2.jl")
 
 # +
 # zombie apocalypse modeling
