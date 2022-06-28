@@ -79,7 +79,7 @@ S0 = 500.     	  # initial population
 Z0 = 0        	  # initial zombie population
 R0 = 0        	  # initial death population
 y0 = [S0, Z0, R0] # initial condition vector
-t  = 0:(5/1000):5 # time grid
+t  = 0:(5/1000):10 # time grid
 # -
 
 # solve the DEs
