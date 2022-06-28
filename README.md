@@ -1,4 +1,5 @@
 # reu22-demo
 This is the demo for June 28, 2022.
 
-Today is not so hot, only 100 degrees.
+Today is not so hot, only 100 degrees.  But for Arizona,
+it's really humid today.
