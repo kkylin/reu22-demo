@@ -29,5 +29,5 @@ function rk2(f,y0,t)
     return sol
 end
 
-## default: euler
-odesolve = euler
+## default: rk2
+odesolve = rk2
